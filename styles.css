@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #18e206, #7715da);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+  
+.container {
+    background-color: rgba(255, 255, 255, 0.322);
+    border-radius: 80px;
+    box-shadow: 0 0 80px rgba(27, 24, 24, 0.2);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    border: 5px solid transparent; 
+    /* animation: rgbBorder steps(30) 5s infinite; */
+}
+  
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #0300a0;
+}
+
+.display {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #667eea;
+  font-size: 48px;
+  font-weight: 600;
+  padding: 20px;
+  margin-bottom: 30px;
+  animation: rgbBorder 5s infinite;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #667eea;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 60px;
+  margin: 0 10px;
+  outline: none;
+  transition: background-color 0.3s ease;
+  width: 60px;
+}
+
+button:hover {
+  background-color: #084992;
+}
+
+.laps {
+  text-align: left;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+.laps h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #0300a0;
+}
+
+.laps ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+  color: whitesmoke;
+  font-weight: 400;
+}
